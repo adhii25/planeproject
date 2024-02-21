@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from . models import Movie
+from . forms import MovieForm
 
 
 # Create your views here.
